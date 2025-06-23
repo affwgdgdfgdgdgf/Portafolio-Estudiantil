@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+}
+
+body{
+	font-family: "Poppins", sans-serif;
+}
+
+header{
+	background-color: #262626;
+	
+}
+
+#hero {
+	background-image: url("../img/photomode_19102024_184842.png");
+	background-size: auto;
+	background-position: center;
+	padding: 20% 0;
+	background-color: rgba(0,0,0,0.63);
+	font-family: "Raleway", sans-serif;
+}
+
+#informacion-general {
+	margin: 5% 0;
+	background-color: #000;
+	align-content: center;
+	padding: 30px;
+	font-size: 30px;
+	color: #fff;
+
+}
+
+.titulo {
+	margin: 50px;
+	text-content: center;
+	padding: 30px;
+	font-size: 50px;
+	font-weight: Bold; 
+	color: #ffaf2e;
+}
+
+.info {
+	background-color: #000;
+	align-content: center;
+	padding: 30px;
+	font-size: 30px;
+}
+
+
+#servicios {
+	text-align: center;
+	margin: 5% 0 ;
+	background-color: #000;
+	padding: 0 0 5%;
+	color: #fff;
+}
+
+#portafolio {
+	text-align: center;
+}
+
+
+#edicion-de-video {
+	background-color:#000;
+	text-align: center;
+	margin: 5% 0 ;
+	padding: 30px;
+}
+
+#diseño-grafico {
+	background-color:#000;
+	text-align: center;
+	margin: 5% 0 ;
+	padding: 30px;
+}
+
+#animacion {
+	background-color:#000;
+	text-align: center;
+	margin: 5% 0 ;
+	padding: 30px;
+}
+
+
+.titulo-2 {
+	padding: 5%;
+	font-size: 50px;
+	font-weight: Bold; 
+	color: #ffaf2e;
+}
+
+.texto-s {
+	padding: 5%;
+	color: #ffaf2e;
+	
+}
+
+.texto-c {
+	color: #ffaf2e;
+	font-size: 50px;
+	font-weight: Bold; 
+}
+
+.icon-color {
+	color: #ffaf2e;
+	font-size: 60px;
+}
+
+#contacto {
+	background-color:#000;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.btn-primary {
+  background-color:#ffaf2e;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  transition: background-color 0.3s;
+	margin: 3px 0;
+}
+
+.btn-primary:hover {
+  background-color:#fff;
+  color: #ffaf2e;
+  font-weight: 600;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  transition: background-color 0.3s;
+	margin: 3px 0;
+}
+
+footer {
+	background-color: #000; 
+	color: #ffaf2e;
+	padding: 25px 0;
+	text-align: center;
+	margin: 30px 0 0 0;
+	font-weight: bold;
+}
